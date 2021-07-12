@@ -1,0 +1,23 @@
+@media screen and (max-width: 480px){
+  .header_top_menu{
+      display: none;
+  }
+    .wraper{
+        padding: 0 20px;
+    }
+    .first_screen_left h1{
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .first_screen_button{
+        position: initial;
+        margin: 50px auto 0;
+    }
+    .first_screen{
+        padding-bottom: 50px;
+        background: teal;
+        height: 100vh;
+
+    }
+}
+

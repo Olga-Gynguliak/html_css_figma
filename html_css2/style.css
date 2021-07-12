@@ -1,0 +1,27 @@
+
+.wrap {
+    width: 700px;
+    height: 200px;
+    text-align: center;
+}
+.box{
+    background: #d412e3;
+    width: 700px;
+    height: 200px;
+    text-align: center;
+}
+
+.box_b_c {
+    display: flex;
+}
+
+.box_b {
+    background: #9fada9;
+    width: 350px;
+    height: 200px;
+}
+.box_c {
+    background: #d92e2e;
+    width: 350px;
+    height: 200px;
+}

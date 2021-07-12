@@ -1,0 +1,487 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+ body{
+    height: 300px;
+     background-color: whitesmoke;
+}
+.wraper{
+    padding: 0 145px;
+}
+.d-flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.header_top{
+    height: 100px;
+}
+.header_top_grid{
+    column-gap: 141px;
+}
+.header_top_nav_menu{
+    column-gap: 22px;
+}
+.nav_menu_item a{
+    font-size: 15px;
+    color: #000000;
+    text-decoration: none;
+}
+.header_top_button{
+    margin-left: 27px;
+    column-gap: 18px;
+}
+.header_top_button_login, .header_top_button_expert,.first_screen_button button{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px 25px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 500ms, color 500ms;
+}
+.header_top_button_login,.header_top_button_expert:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+.header_top_button_expert, .header_top_button_login:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+.first_screen_left{
+    padding-top: 100px;
+    max-width: 490px;
+}
+.first_screen_left h1{
+    font-weight: bold;
+    font-size: 77px;
+    line-height: 83px;
+    color: #000000;
+    margin-bottom: 27px;
+}
+.first_screen_left p{
+    font-size: 20px;
+    line-height: 31px;
+    color: #000000;
+}
+.first_screen_grid{
+    column-gap: 65px;
+}
+.first_screen{
+    position: relative;
+    border-bottom: 1px solid #EAEEF2;
+}
+.first_screen_button{
+    width: 220px;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: -33px;
+    left: 141px;
+}
+.first_screen_button h4{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.first_screen_button button{
+    background-color: #ffffff;
+    font-size: 22px;
+    margin-top: 27px;
+}
+
+        /*FINANCE*/
+.finance{
+    position: relative;
+    border-bottom: 1px solid #EAEEF2;
+}
+.finance_left{
+    padding-top: 100px;
+    max-width: 490px;
+}
+
+.finance_right{
+    padding-top: 100px;
+    max-width: 490px;
+}
+
+.finance_right h2{
+    width: 443px;
+    height: 173px;
+    font-weight: bold;
+    font-size: 57px;
+    line-height: 58px;
+    color: #000000;
+}
+
+.finance_right p{
+    width: 515px;
+    height: 123px;
+    font-size: 20px;
+    line-height: 31px;
+}
+
+.finance_grid{
+    column-gap: 65px;
+}
+
+        /*SWITCH*/
+
+.switch{
+    position: relative;
+    border-bottom: 1px solid #EAEEF2;
+}
+
+.switch_left{
+    padding-top: 100px;
+    max-width: 490px;
+}
+
+.switch_left h2{
+    width: 355px;
+    height: 58px;
+}
+
+.switch_left h5{
+    width: 235px;
+    height: 36px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.switch_left p{
+    width: 295px;
+    height: 96px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.switch_left_button{
+    width: 235px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #F7B2B7;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    padding: 15px 50px;
+}
+
+.cashflow{
+    position: relative;
+    border-bottom: 1px solid #EAEEF2;
+}
+
+.cashflow_center{
+    padding-top: 150px;
+    max-width: 490px;
+}
+
+.cashflow_center h5{
+    width: 192px;
+    height: 36px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.cashflow_center p{
+    width: 292px;
+    height: 72px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.award{
+    position: relative;
+    border-bottom: 1px solid #EAEEF2;
+}
+
+.award_right{
+    padding-top: 150px;
+    max-width: 490px;
+}
+
+.award_right h5{
+    width: 295px;
+    height: 36px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.award_right p{
+    width: 272px;
+    height: 96px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.switch_grid{
+    column-gap: 65px;
+}
+
+            /*PLANS*/
+
+.plans{
+    position: relative;
+    border-bottom: 1px solid #EAEEF2;
+}
+
+.plans_left{
+    padding-top: 100px;
+    max-width: 490px;
+}
+
+.plans_left h2{
+    width: 557px;
+    height: 58px;
+    font-size: 58px;
+    line-height: 57px;
+    color: #000000;
+}
+
+.plans_left h5{
+    width: 254px;
+    height: 36px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.plans_left p{
+    width: 304px;
+    height: 144px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.scale_up{
+    position: relative;
+    border-bottom: 1px solid #EAEEF2;
+}
+
+.scale_up_center{
+    padding-top: 150px;
+    max-width: 490px;
+}
+
+.scale_up_center h5{
+    width: 104px;
+    height: 36px;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.scale_up_center p{
+    width: 302px;
+    height: 120px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.high_growth{
+    position: relative;
+    border-bottom: 1px solid #EAEEF2;
+}
+
+.high_growth_right{
+    padding-top: 150px;
+    max-width: 490px;
+}
+
+.high_growth_right h5{
+    width: 178px;
+    height: 36px;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.high_growth_right p{
+    width: 272px;
+    height: 96px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.plans_grid{
+    column-gap: 65px;
+}
+
+        /*Join 200+ amazing companies*/
+.amazing_companies{
+    position: relative;
+    border-bottom: 1px solid #EAEEF2;
+}
+
+.amazing_companies_left{
+    padding-top: 100px;
+    max-width: 490px;
+}
+
+.amazing_companies_left h2{
+    width: 236px;
+    height: 72px;
+    font-size: 27px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.amazing_companies_grid{
+    column-gap: 65px;
+}
+
+.logo_frizzenti_manyone_beam, .logo_vemy_olio_fuel_ventures, .logo_feel_buffer_chaser{
+    padding-top: 100px;
+    max-width: 490px;
+    display: block;
+}
+
+        /*AC HUB*/
+
+.ac_hub{
+    position: relative;
+    border-bottom: 1px solid #EAEEF2;
+}
+
+.ac_hub_left{
+    padding-top: 100px;
+    max-width: 490px;
+}
+
+
+
+.ac_hub_left h2{
+    width: 343px;
+    height: 58px;
+    font-size: 58px;
+    line-height: 57px;
+    color: #000000;
+}
+
+.ac_hub_left p{
+    width: 547px;
+    height: 62px;
+    font-size: 20px;
+    line-height: 31px;
+}
+.ac_hub_left_button{
+    width: 140px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #F7B2B7;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    padding: 15px 70px;
+}
+
+.ac_hub_right{
+    position: relative;
+    border-bottom: 1px solid #EAEEF2;
+}
+
+.image_ac_hub_right{
+    padding-top: 150px;
+    max-width: 490px;
+
+}
+
+.ac_hub_grid{
+    column-gap: 65px;
+}
+
+
+        /*Ready to Switch?*/
+
+.ready_to_switch{
+    position: relative;
+    border-bottom: 1px solid #EAEEF2;
+    background-color: #8BD4D6;
+}
+
+.ready_to_switch_left{
+    padding-top: 100px;
+    max-width: 490px;
+}
+
+.ready_to_switch_left h2{
+    width: 615px;
+    height: 56px;
+    font-size: 46px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.ready_to_switch_left h5{
+    width: 234px;
+    height: 31px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.ready_to_switch_grid{
+    column-gap: 65px;
+}
+
+.button_get_started{
+    width: 159px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px 25px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+            /*Footer*/
+.footer{
+    background-color: #302E3F;
+}
+.footer_bottom_logo{
+    width: 290px;
+    height: 36px;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.footer_bottom{
+    height: 100px;
+}
+.footer_bottom_grid{
+    column-gap: 141px;
+}
+.footer_bottom_nav_menu{
+    column-gap: 22px;
+}
+.footer_menu_item a{
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.accountancy_privacy_terms{
+
+}

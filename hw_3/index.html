@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .box-1{
+      height: 300px;
+      background: dimgrey;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-evenly;
+    }
+    .rel{
+      height: 200px;
+      width: 200px;
+      background: purple;
+      position: relative;
+      top: 100px;
+    }
+
+    .box-2{
+      height: 400px;
+      background: silver;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-evenly;
+    }
+
+    .box-2_1, .box-3, .box-3_1, .box-4{
+      background: silver;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-evenly;
+    }
+    .box-5{
+      background: silver;
+      display: flex;
+    }
+
+    .pc{
+      align-items: center;
+    }
+    .purple{
+      background: purple;
+    }
+
+    .w200{
+      width: 200px;
+    }
+    .w300{
+      width: 300px;
+    }
+
+    .h200{
+      height: 200px;
+    }
+
+    .radius10{
+      border-radius: 10px;
+    }
+
+    .w600{
+      width: 600px;
+    }
+
+    .radius-round{
+      border-radius: 50%;
+    }
+    .mt100{
+      margin-top: 100px;
+    }
+
+    .marg {
+      margin: 20px;
+    }
+    .marg_i{
+      margin-inline: 50px;
+    }
+
+  </style>
+</head>
+<body>
+<div class="box-1">
+  <div class="rel"></div>
+  <div class="rel"></div>
+  <div class="rel"></div>
+</div>
+  <div class="box-2">
+    <div class="purple w200 h200 mt100 marg"></div>
+    <div class="purple w200 h200 mt100 marg"></div>
+    <div class="purple w200 h200 mt100 marg"></div>
+    <div class="purple w200 h200 mt100 marg"></div>
+  </div>
+  <div class="box-2_1">
+    <div class="purple w200 h200 mt100 marg"></div>
+    <div class="purple w200 h200 mt100 marg"></div>
+    <div class="purple w200 h200 mt100 marg"></div>
+    <div class="purple w200 h200 mt100 marg"></div>
+  </div>
+  <div class="box-3">
+  <div class="purple w600 h200 radius10 mt100 marg_i"></div>
+  <div class="purple w600 h200 radius10 mt100 marg_i"></div>
+  </div>
+  <div class="box-3_1">
+    <div class="purple w600 h200 radius10 mt100 marg_i pc"></div>
+    <div class="purple w600 h200 radius10 mt100 marg_i pc"></div>
+  </div>
+  <div class="box-4">
+    <div class="purple w300 h200 mt100 marg_i"></div>
+    <div class="purple w300 h200 mt100 marg_i"></div>
+    <div class="purple w300 h200 mt100 marg_i"></div>
+  </div>
+  <div class="box-5">
+<div class="purple w200 h200 radius-round mt100 marg_i"></div>
+</div>
+</body>
+</html>
+
+
